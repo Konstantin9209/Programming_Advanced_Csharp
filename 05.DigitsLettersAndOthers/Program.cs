@@ -18,7 +18,7 @@ foreach (char symbol in text)
     else
     {
         otherSymbols.Append(symbol);
-    }
+    } 
 }
 Console.WriteLine(digits);
 Console.WriteLine(letters);
