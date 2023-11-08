@@ -1,0 +1,15 @@
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\bin\Debug\net6.0\04.TextFilter.exe
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\bin\Debug\net6.0\04.TextFilter.deps.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\bin\Debug\net6.0\04.TextFilter.runtimeconfig.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\bin\Debug\net6.0\04.TextFilter.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\bin\Debug\net6.0\04.TextFilter.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.csproj.AssemblyReference.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.AssemblyInfoInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.AssemblyInfo.cs
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.csproj.CoreCompileInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\refint\04.TextFilter.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\04.TextFilter.genruntimeconfig.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\04.TextFilter\obj\Debug\net6.0\ref\04.TextFilter.dll
