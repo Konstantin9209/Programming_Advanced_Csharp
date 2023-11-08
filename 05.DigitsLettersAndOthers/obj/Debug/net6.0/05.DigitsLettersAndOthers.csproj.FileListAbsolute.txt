@@ -1,0 +1,15 @@
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\bin\Debug\net6.0\05.DigitsLettersAndOthers.exe
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\bin\Debug\net6.0\05.DigitsLettersAndOthers.deps.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\bin\Debug\net6.0\05.DigitsLettersAndOthers.runtimeconfig.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\bin\Debug\net6.0\05.DigitsLettersAndOthers.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\bin\Debug\net6.0\05.DigitsLettersAndOthers.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.csproj.AssemblyReference.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.AssemblyInfoInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.AssemblyInfo.cs
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.csproj.CoreCompileInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\refint\05.DigitsLettersAndOthers.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\05.DigitsLettersAndOthers.genruntimeconfig.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\05.DigitsLettersAndOthers\obj\Debug\net6.0\ref\05.DigitsLettersAndOthers.dll
