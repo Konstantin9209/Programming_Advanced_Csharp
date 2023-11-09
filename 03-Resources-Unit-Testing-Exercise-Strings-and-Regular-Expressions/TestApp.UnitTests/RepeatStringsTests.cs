@@ -37,13 +37,13 @@ public class RepeatStringsTests
     public void Test_Repeat_MultipleInputStrings_ReturnsConcatenatedRepeatedStrings()
     {
         // Arrange
-        string[] input = new[] { "abc" + "def" };
+        string[] input = new[] { "abc", "def" };
 
 
         // Act
         string result = RepeatStrings.Repeat(input);
 
         // Assert
-        Assert.That(result, Is.EqualTo("abcdefabcdefabcdefabcdefabcdefabcdef"));
+        Assert.That(result, Is.EqualTo("abcabcabcdefdefdef"));
     }
 }
