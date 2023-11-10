@@ -12,11 +12,11 @@ public class ReverseConcatenateTests
     public void Test_ReverseAndConcatenateStrings_EmptyInput_ReturnsEmptyString()
     {
         // Arrange
-
+string[] input =Array.Empty<string>();
         // Act
-        //string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
+        string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
 
-        // Assert
+        Assert.That(result, Is.Empty);
     }
 
     // TODO: finish the test
@@ -24,34 +24,50 @@ public class ReverseConcatenateTests
     public void Test_ReverseAndConcatenateStrings_SingleString_ReturnsSameString()
     {
         // Arrange
-
+        string[] input = new[] { "alabala" };
         // Act
-        //string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
+        string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
 
-        // Assert
+        Assert.That(result, Is.EqualTo("alabala"));
     }
 
     [Test]
     public void Test_ReverseAndConcatenateStrings_MultipleStrings_ReturnsReversedConcatenatedString()
     {
-        // TODO: finish the test
+        string[] input = new[] { "alabala", "ala", "bala" };
+        // Act
+        string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
+
+        Assert.That(result, Is.EqualTo("balaalaalabala"));
     }
 
     [Test]
     public void Test_ReverseAndConcatenateStrings_NullInput_ReturnsEmptyString()
     {
-        // TODO: finish the test
+        string[] input = null;
+        // Act
+        string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
+
+        Assert.That(result, Is.Empty);
     }
 
     [Test]
     public void Test_ReverseAndConcatenateStrings_WhitespaceInput_ReturnsConcatenatedString()
     {
-        // TODO: finish the test
+        string[] input = new[] { "   ", "  ", " " };
+        // Act
+        string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
+
+        Assert.That(result, Is.EqualTo("      "));
     }
 
     [Test]
     public void Test_ReverseAndConcatenateStrings_LargeInput_ReturnsReversedConcatenatedString()
     {
-        // TODO: finish the test
+        string[] input = new[] { "alabala", "ala", "bala", "alabala", "ala", "bala", "alabala", "ala", "bala", "alabala", "ala", "bala"};
+        // Act
+        string result = ReverseConcatenate.ReverseAndConcatenateStrings(input);
+
+        Assert.That(result, Is.EqualTo("balaalaalabalabalaalaalabalabalaalaalabalabalaalaalabala"));
     }
 }
