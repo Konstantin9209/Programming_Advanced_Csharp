@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Count_Real_Numbers
-build_property.ProjectDir = C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Count Real Numbers\
+build_property.RootNamespace = Add_Occurrences
+build_property.ProjectDir = C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Add Occurrences\

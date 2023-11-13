@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Count Real Numbers\\Count Real Numbers.csproj": {}
+    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Add Occurrences\\Add Occurrences.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Count Real Numbers\\Count Real Numbers.csproj": {
+    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Add Occurrences\\Add Occurrences.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Count Real Numbers\\Count Real Numbers.csproj",
-        "projectName": "Count Real Numbers",
-        "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Count Real Numbers\\Count Real Numbers.csproj",
+        "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Add Occurrences\\Add Occurrences.csproj",
+        "projectName": "Add Occurrences",
+        "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Add Occurrences\\Add Occurrences.csproj",
         "packagesPath": "C:\\Users\\Konstantin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Count Real Numbers\\obj\\",
+        "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Dictionaries, Lambda and LINQ - Lab\\Add Occurrences\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Konstantin\\AppData\\Roaming\\NuGet\\NuGet.Config",
