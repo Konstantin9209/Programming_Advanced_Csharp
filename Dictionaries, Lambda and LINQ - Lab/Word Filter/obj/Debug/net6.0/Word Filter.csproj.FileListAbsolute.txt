@@ -1,0 +1,15 @@
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\bin\Debug\net6.0\Word Filter.exe
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\bin\Debug\net6.0\Word Filter.deps.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\bin\Debug\net6.0\Word Filter.runtimeconfig.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\bin\Debug\net6.0\Word Filter.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\bin\Debug\net6.0\Word Filter.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.csproj.AssemblyReference.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.AssemblyInfoInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.AssemblyInfo.cs
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.csproj.CoreCompileInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\refint\Word Filter.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\Word Filter.genruntimeconfig.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries, Lambda and LINQ - Lab\Word Filter\obj\Debug\net6.0\ref\Word Filter.dll
