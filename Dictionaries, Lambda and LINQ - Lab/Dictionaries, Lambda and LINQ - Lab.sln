@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Real Numbers", "Count
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Occurrences", "Add Occurrences\Add Occurrences.csproj", "{60338921-5028-4C11-A6B1-CC28725AA55B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Synonyms", "Word Synonyms\Word Synonyms.csproj", "{6A4D6F15-78FB-42FF-8224-3724050A707D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Filter", "Word Filter\Word Filter.csproj", "{754CAFE7-1FAB-4A51-A92A-98AB0D958BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{60338921-5028-4C11-A6B1-CC28725AA55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60338921-5028-4C11-A6B1-CC28725AA55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60338921-5028-4C11-A6B1-CC28725AA55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4D6F15-78FB-42FF-8224-3724050A707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4D6F15-78FB-42FF-8224-3724050A707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4D6F15-78FB-42FF-8224-3724050A707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4D6F15-78FB-42FF-8224-3724050A707D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754CAFE7-1FAB-4A51-A92A-98AB0D958BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754CAFE7-1FAB-4A51-A92A-98AB0D958BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754CAFE7-1FAB-4A51-A92A-98AB0D958BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754CAFE7-1FAB-4A51-A92A-98AB0D958BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
