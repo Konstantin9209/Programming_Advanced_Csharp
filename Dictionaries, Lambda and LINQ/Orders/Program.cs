@@ -12,13 +12,25 @@ while (input != "buy")
     if (!products.ContainsKey(product))
     {
         products.Add(product, new List<decimal>());
-        product.[product].Add(price);
-        product.[product].Add(quantity);
-    
+        products[product].Add(price);
+        products[product].Add(quantity);
+
     }
     else
     {
         products[product][0] = price;
-        products[product][1] = quantity;
+        products[product][1] += quantity;
     }
+    input = Console.ReadLine();
+}
+
+foreach (KeyValuePair<string, List<decimal>> currentProduct in products)
+{
+    string currentProductName = currentProduct.Key;
+    decimal currentProductPrice = currentProduct.Value[0];
+    decimal currentProductQuantity = currentProduct.Value[1];
+
+    decimal currentProductAmount = currentProductPrice * currentProductQuantity;
+
+    Console.WriteLine($"{currentProductName} -> { currentProductAmount:F2}");
 }

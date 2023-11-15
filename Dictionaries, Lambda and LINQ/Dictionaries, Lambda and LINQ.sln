@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Chars in a String", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A Miner Task", "A Miner Task\A Miner Task.csproj", "{30DF7859-0167-4A14-991E-179EA4C0514C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{5A696BB7-E652-4F5D-AFD9-488A639FC585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Parking", "SoftUni Parking\SoftUni Parking.csproj", "{B01F267F-9C59-487A-A6D4-7CCB07D689DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{30DF7859-0167-4A14-991E-179EA4C0514C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30DF7859-0167-4A14-991E-179EA4C0514C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30DF7859-0167-4A14-991E-179EA4C0514C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A696BB7-E652-4F5D-AFD9-488A639FC585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A696BB7-E652-4F5D-AFD9-488A639FC585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A696BB7-E652-4F5D-AFD9-488A639FC585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A696BB7-E652-4F5D-AFD9-488A639FC585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01F267F-9C59-487A-A6D4-7CCB07D689DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01F267F-9C59-487A-A6D4-7CCB07D689DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01F267F-9C59-487A-A6D4-7CCB07D689DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01F267F-9C59-487A-A6D4-7CCB07D689DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
