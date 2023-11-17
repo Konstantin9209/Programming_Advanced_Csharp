@@ -23,11 +23,11 @@ public class GroupingTests
     public void Test_GroupNumbers_WithEvenAndOddNumbers_ShouldReturnGroupedString()
     {
         // Arrange
-        List<int> input = new() { 1, 2, 3, 4};
+        List<int> input = new() { 2, 1, 3, 4};
         // Act
         string result = Grouping.GroupNumbers(input);
         // Assert
-        Assert.That(result, Is.EqualTo("Odd numbers: 1, 3\r\nEven numbers: 2, 4"));
+        Assert.That(result, Is.EqualTo("Even numbers: 2, 4\r\nOdd numbers: 1, 3"));
 
     }
 
