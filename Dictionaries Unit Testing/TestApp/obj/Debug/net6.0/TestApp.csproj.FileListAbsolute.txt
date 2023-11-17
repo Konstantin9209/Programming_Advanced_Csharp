@@ -1,0 +1,12 @@
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\bin\Debug\net6.0\TestApp.deps.json
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\bin\Debug\net6.0\TestApp.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\bin\Debug\net6.0\TestApp.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.csproj.AssemblyReference.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfoInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfo.cs
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\refint\TestApp.dll
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\TestApp.pdb
+C:\Users\Konstantin\Documents\GitHub\Programming-Advanced-Csharp\Programming_Advanced_Csharp\Dictionaries Unit Testing\TestApp\obj\Debug\net6.0\ref\TestApp.dll
