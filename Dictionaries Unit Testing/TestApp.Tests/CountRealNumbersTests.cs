@@ -28,7 +28,7 @@ public class CountRealNumbersTests
         Assert.That(result, Is.EqualTo("1 -> 1"));
     }
 
-    [Test]
+    [ Test]
     public void Test_Count_WithMultipleNumbers_ShouldReturnCountString()
     {
         int[] input = new int[] { 1, 2, 3, 1, 2, 1, 3, 2 };
