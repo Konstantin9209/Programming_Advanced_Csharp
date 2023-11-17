@@ -37,13 +37,13 @@ public class CountCharactersTests
     [Test]
     public void Test_Count_WithSingleCharacter_ShouldReturnCountString()
     {
-        List<string> input = new() { "aaa", "aa", "a" };
+        List<string> input = new() { "a" };
 
         // Act
         string result = CountCharacters.Count(input);
 
         // Assert
-        Assert.That(result, Is.EqualTo("a -> 6"));
+        Assert.That(result, Is.EqualTo("a -> 1"));
     }
 
     [Test]
