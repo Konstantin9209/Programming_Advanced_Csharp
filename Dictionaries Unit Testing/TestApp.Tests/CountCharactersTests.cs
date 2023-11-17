@@ -84,4 +84,30 @@ public class CountCharactersTests
         // Assert
         Assert.That(result, Is.EqualTo(expected));
     }
+    [Test]
+    public void Test_Count_WithUpperCaseAndNumberCharacters_ShouldReturnCountString()
+    {
+        List<string> input = new() { "aa!a", "!aabbccc", "ababcba", "ABC123", "CBA231", "BCA321" };
+
+        StringBuilder sb = new();
+        sb.AppendLine("a -> 8");
+        sb.AppendLine("! -> 2");
+        sb.AppendLine("b -> 5");
+        sb.AppendLine("c -> 4");
+        sb.AppendLine("A -> 3");
+        sb.AppendLine("B -> 3");
+        sb.AppendLine("C -> 3");
+        sb.AppendLine("1 -> 3");
+        sb.AppendLine("2 -> 3");
+        sb.AppendLine("3 -> 3");
+      
+        string expected = sb.ToString().Trim();
+
+
+        // Act
+        string result = CountCharacters.Count(input);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(expected));
+    }
 }
