@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Konstantin\\Documents\\GitHub\\Microsoft Projects\\Objects and Classes\\Demo\\Demo.csproj": {}
+    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Demo\\Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Konstantin\\Documents\\GitHub\\Microsoft Projects\\Objects and Classes\\Demo\\Demo.csproj": {
+    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Microsoft Projects\\Objects and Classes\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Microsoft Projects\\Objects and Classes\\Demo\\Demo.csproj",
+        "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\Konstantin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Microsoft Projects\\Objects and Classes\\Demo\\obj\\",
+        "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Konstantin\\AppData\\Roaming\\NuGet\\NuGet.Config",
