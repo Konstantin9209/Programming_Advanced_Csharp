@@ -1,39 +1,47 @@
-﻿namespace Store_boxes
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Store_boxes
 {
     public class Item
     {
-        public Item (string name, decimal price)
+        public Item(string name, decimal price)
         {
-            name = name;
-            price = price;
+            this.Name = name;
+            this.Price = price;
         }
+
         public string Name { get; set; }
         public decimal Price { get; set; }
     }
+
     public class Box
     {
-        public Box(string SerialNumber, Item item, int itemQuantity)
+        public Box(string serialNumber, Item item, int itemQuantity)
         {
-            SerialNumber = SerialNumber;
-            Item = item;
-            itemQuantity = itemQuantity;
-            PricePerBox = item.Price * itemQuantity;
+            this.SerialNumber = serialNumber;
+            this.Item = item;
+            this.ItemQuantity = itemQuantity;
+            this.PricePerBox = item.Price * itemQuantity;
         }
+
         public string SerialNumber { get; set; }
         public Item Item { get; set; }
         public int ItemQuantity { get; set; }
         public decimal PricePerBox { get; set; }
     }
+
     public class Program
     {
         static void Main(string[] args)
         {
+            List<Box> boxes = new List<Box>();
             string command = Console.ReadLine();
 
-            List<Box> boxes = new List<Box>();
             while (command != "end")
             {
-                string[] data = command.Split(" ");
+                string[] data = command.Split(' ');
                 string serialNumber = data[0];
                 string itemName = data[1];
                 int itemQuantity = int.Parse(data[2]);
@@ -42,10 +50,12 @@
                 Item currentItem = new Item(itemName, itemPrice);
                 Box currentBox = new Box(serialNumber, currentItem, itemQuantity);
                 boxes.Add(currentBox);
-                
+
                 command = Console.ReadLine();
             }
+
             boxes = boxes.OrderByDescending(box => box.PricePerBox).ToList();
+
 
             foreach (Box box in boxes)
             {
