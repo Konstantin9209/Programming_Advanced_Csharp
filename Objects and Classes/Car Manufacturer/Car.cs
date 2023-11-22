@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Car_Manufacturer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,9 @@ namespace CarManufacturer
 
         public double FuelQuantity { get; set; }
         public double FuelConsumption { get; set; }
+
+        public Engine Engine { get; set; }
+        public tire tire { get; set; }
 
         public void Drive(double distance)
         {
@@ -50,5 +54,11 @@ namespace CarManufacturer
             FuelQuantity = fuelQuantity;
             FuelConsumption = fuelConsumption;
         }
+        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, Engine engine, tire[] tires) : this(make, model, year, fuelQuantity, fuelConsumption)
+        {
+            this.Engine = engine;
+            this.tire = tire;
+        }
     }
 }
+

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Car_Manufacturer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,15 +11,17 @@ namespace CarManufacturer
     {
         static void Main()
         {
-            string make = Console.ReadLine();
-            string model = Console.ReadLine();
-            int year = int.Parse(Console.ReadLine());
-            double fuelQuantity = double.Parse(Console.ReadLine());
-            double fuelConsumption = double.Parse(Console.ReadLine());
+            var tires = new tire[]
+            {
+                new tire(1, 2.5),
+                new tire(1, 2.1),
+                new tire(1, 0.5),
+                new tire(1, 2.3),
+            };
+            var engine = new Engine(560, 6300);
+            var lambo = new Car("Lamborghini", "Urus", 2010, 250, 9, engine, tires);
 
-            Car firstCar = new Car();
-            Car secondCar = new Car(make, model, year);
-            Car thirdCar = new Car(make, model, year, fuelQuantity, fuelConsumption);
+            Console.WriteLine(lambo.WhoAmI());
         }
     }
 }
