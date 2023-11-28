@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Car Manufacturer\\CarManufacturer.csproj",
-      "projectName": "CarManufacturer",
-      "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Car Manufacturer\\CarManufacturer.csproj",
+      "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Student\\Student.csproj",
+      "projectName": "Student",
+      "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Student\\Student.csproj",
       "packagesPath": "C:\\Users\\Konstantin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and Classes\\Car Manufacturer\\obj\\",
+      "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Student\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Konstantin\\AppData\\Roaming\\NuGet\\NuGet.Config",

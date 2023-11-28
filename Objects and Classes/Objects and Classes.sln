@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store boxes", "Store boxes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle Catalogue", "Vehicle Catalogue\Vehicle Catalogue.csproj", "{68A0224A-6BC7-482E-9C3C-A3F1F7BA615B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Manufacturer", "Car Manufacturer\Car_Manufacturer.csproj", "{42EB79FB-8DE7-4475-8EF7-3289E4CC4D89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturer", "Car Manufacturer\CarManufacturer.csproj", "{42EB79FB-8DE7-4475-8EF7-3289E4CC4D89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
