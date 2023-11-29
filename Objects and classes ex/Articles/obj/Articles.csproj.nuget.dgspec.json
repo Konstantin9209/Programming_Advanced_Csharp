@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj": {}
+    "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj": {
+    "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj",
+        "projectUniqueName": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj",
         "projectName": "Articles",
-        "projectPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj",
-        "packagesPath": "C:\\Users\\Konstantin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\obj\\",
+        "projectPath": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\Articles.csproj",
+        "packagesPath": "C:\\Users\\petko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Objects and classes ex\\Articles\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Konstantin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\petko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

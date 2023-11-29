@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "l7jJ4Yuekdvl48A6HHYzQI259k8OVyMLnZiZ9wOxeQm97C7fncwrL4WKTretaGAUw55gmFW0iheMN2mtXEKLNQ==",
+  "dgSpecHash": "V4chK+twztqcGminc7NrIW6xxR//37uSJ5xjAUDCVxEiJ3n+z8hIyUPkOwur6ig79CuUir30P1AWknrTFUNtRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Konstantin\\Documents\\GitHub\\Programming-Advanced-Csharp\\Programming_Advanced_Csharp\\Objects and classes ex\\Student\\Student.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Objects and classes ex\\Student\\Student.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\petko\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\petko\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\petko\\.nuget\\packages\\selenium.webdriver\\4.15.0\\selenium.webdriver.4.15.0.nupkg.sha512",
+    "C:\\Users\\petko\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
