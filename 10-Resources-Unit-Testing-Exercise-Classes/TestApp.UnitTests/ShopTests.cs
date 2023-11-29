@@ -8,25 +8,39 @@ namespace TestApp.UnitTests;
 
 public class ShopTests
 {
-    // TODO: write setup method
+   private Shop _shop;
+    [SetUp]
 
-    // TODO: finish test
+    public void SetUp()
+    {
+        this._shop = new Shop();
+    }
     [Test]
     public void Test_AddAndGetBoxes_ReturnsSortedBoxes()
     {
+        string[] products =
+        {
+            "12345 Widget 5 10.00",
+            "54321 Gadget 3 15.00",
+            "98765 Gizmo 2 8.00",
+            };
         // Arrange
         string expected = $"12345{Environment.NewLine}-- Widget - $10.00: 5{Environment.NewLine}-- $50.00{Environment.NewLine}54321{Environment.NewLine}-- Gadget - $15.00: 3{Environment.NewLine}-- $45.00{Environment.NewLine}98765{Environment.NewLine}-- Gizmo - $8.00: 2{Environment.NewLine}-- $16.00";
 
         // Act
-        //string result = this._shop.AddAndGetBoxes(products);
+        string result = this._shop.AddAndGetBoxes(products);
 
         // Assert
-        //Assert.That(result, Is.EqualTo(expected));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
     public void Test_AddAndGetBoxes_ReturnsEmptyString_WhenNoProductsGiven()
     {
-        // TODO: finish test
+        string[] products = { };
+
+        string result = this._shop.AddAndGetBoxes(products);
+
+        Assert.AreEqual(string.Empty, result);
     }
 }
