@@ -42,20 +42,25 @@ public class ExceptionTests
     [Test]
     public void Test_CalculateDiscount_ValidInput_ReturnsDiscountedPrice()
     {
-        
+
+        decimal totalPrice = 100.0m;
+        decimal discount = 10.0m;
+
+        decimal result = this._exceptions.ArgumentCalculateDiscount(totalPrice, discount);
+
+        Assert.That(result, Is.EqualTo(90));
     }
 
-    // TODO: finish test
     [Test]
     public void Test_CalculateDiscount_NegativeDiscount_ThrowsArgumentException()
     {
         // Arrange
-
+        decimal totalPrice = -100.0m;
+        decimal discount = -10.0m;
         // Act & Assert
-        //Assert.That(() => this._exceptions.ArgumentCalculateDiscount(totalPrice, discount), Throws.ArgumentException);
+        Assert.That(() => this._exceptions.ArgumentCalculateDiscount(totalPrice, discount), Throws.ArgumentException);
     }
 
-    // TODO: finish test
     [Test]
     public void Test_CalculateDiscount_DiscountOver100_ThrowsArgumentException()
     {
@@ -64,6 +69,7 @@ public class ExceptionTests
         decimal discount = 110.0m;
 
         // Act & Assert
+        Assert.That(() => this._exceptions.ArgumentCalculateDiscount(totalPrice, discount), Throws.ArgumentException);
     }
 
     [Test]
