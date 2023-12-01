@@ -133,13 +133,18 @@ public class ExceptionTests
     [Test]
     public void Test_ParseInt_ValidInput_ReturnsParsedInteger()
     {
-        // TODO: finish test
+        string input = "3";
+
+        int result = this._exceptions.FormatExceptionParseInt(input);
+        Assert.That(result, Is.EqualTo(3));
     }
 
     [Test]
     public void Test_ParseInt_InvalidInput_ThrowsFormatException()
     {
-        // TODO: finish test
+        string input = "3.,3abc";
+
+        Assert.That(() => this._exceptions.FormatExceptionParseInt(input),Throws.InstanceOf<FormatException>());
     }
 
     [Test]
