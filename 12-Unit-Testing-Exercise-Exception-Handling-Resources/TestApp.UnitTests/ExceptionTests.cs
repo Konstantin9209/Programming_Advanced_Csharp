@@ -116,13 +116,18 @@ public class ExceptionTests
     [Test]
     public void Test_PerformSecureOperation_UserLoggedIn_ReturnsUserLoggedInMessage()
     {
-        // TODO: finish test
+        bool isLoggedIn = true;
+
+        string result = this._exceptions.InvalidOperationPerformSecureOperation(isLoggedIn);
+
+        Assert.That(result, Is.EqualTo("User logged in."));
     }
 
     [Test]
     public void Test_PerformSecureOperation_UserNotLoggedIn_ThrowsInvalidOperationException()
     {
-        // TODO: finish test
+        bool isLoggedIn = false;
+        Assert.That(() => this._exceptions.InvalidOperationPerformSecureOperation(isLoggedIn), Throws.InstanceOf<InvalidOperationException>());
     }
 
     [Test]
