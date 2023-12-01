@@ -180,19 +180,33 @@ public class ExceptionTests
     [Test]
     public void Test_AddNumbers_NoOverflow_ReturnsSum()
     {
-        // TODO: finish test
+        int num1 = 2;
+        int num2 = 3;
+
+        int result = this._exceptions.OverflowAddNumbers(num1, num2);
+
+        Assert.That(result, Is.EqualTo(5));
     }
 
     [Test]
     public void Test_AddNumbers_PositiveOverflow_ThrowsOverflowException()
     {
-        // TODO: finish test
+       
+        
+        int num1 = int.MaxValue;
+        int num2 = 3;
+
+        Assert.That(() => this._exceptions.OverflowAddNumbers(num2, num1), Throws.InstanceOf<OverflowException>());
     }
 
     [Test]
     public void Test_AddNumbers_NegativeOverflow_ThrowsOverflowException()
     {
-        // TODO: finish test
+
+        int num1 = int.MinValue;
+        int num2 = -1;
+
+        Assert.That(() => this._exceptions.OverflowAddNumbers(num2, num1), Throws.InstanceOf<OverflowException>());
     }
 
     [Test]
