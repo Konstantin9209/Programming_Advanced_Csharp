@@ -15,32 +15,34 @@ public class ExceptionTests
         this._exceptions = new();
     }
 
-    // TODO: finish test
+    
     [Test]
     public void Test_Reverse_ValidString_ReturnsReversedString()
     {
         // Arrange
-
+        string input = "hello";
+        string expected = "olleh";
         // Act
+        string result = this._exceptions.ArgumentNullReverse(input);
 
         // Assert
-        //Assert.That(result, Is.EqualTo(expected));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
-    // TODO: finish test
+    
     [Test]
     public void Test_Reverse_NullString_ThrowsArgumentNullException()
     {
         // Arrange
-
+        string input = null;
         // Act & Assert
-        //Assert.That(() => this._exceptions.ArgumentNullReverse(input), Throws.ArgumentNullException);
+        Assert.That(() => this._exceptions.ArgumentNullReverse(input), Throws.ArgumentNullException);
     }
 
     [Test]
     public void Test_CalculateDiscount_ValidInput_ReturnsDiscountedPrice()
     {
-        // TODO: finish test
+        
     }
 
     // TODO: finish test
