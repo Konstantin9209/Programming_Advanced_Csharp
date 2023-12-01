@@ -150,13 +150,31 @@ public class ExceptionTests
     [Test]
     public void Test_FindValueByKey_KeyExistsInDictionary_ReturnsValue()
     {
-        // TODO: finish test
+        Dictionary<string, int> dictionary = new()
+        {
+            ["first"] = 10,
+            ["second"] = 15,
+            ["third"] = 20
+        };
+        string key = "second";
+
+        int result = this._exceptions.KeyNotFoundFindValueByKey(dictionary, key);
+
+        Assert.That(result, Is.EqualTo(15));
     }
 
     [Test]
     public void Test_FindValueByKey_KeyDoesNotExistInDictionary_ThrowsKeyNotFoundException()
     {
-        // TODO: finish test
+        Dictionary<string, int> dictionary = new()
+        {
+            ["first"] = 10,
+            ["second"] = 15,
+            ["third"] = 20
+        };
+        string key = "fourth";
+
+        Assert.That(() => this._exceptions.KeyNotFoundFindValueByKey(dictionary, key),Throws.InstanceOf<KeyNotFoundException>());
     }
 
     [Test]
