@@ -232,13 +232,20 @@ public class ExceptionTests
     [Test]
     public void Test_SumCollectionElements_ValidCollectionAndIndex_ReturnsSum()
     {
-        // TODO: finish test
+        int[] collection = new[] { 1, 2, 3, };
+        int index = 2;
+
+        int result =this._exceptions.SumCollectionElements(collection, index);
+
+        Assert.That(result, Is.EqualTo(6));
     }
 
     [Test]
     public void Test_SumCollectionElements_NullCollection_ThrowsArgumentNullException()
     {
-        // TODO: finish test
+        int[]? collection = new[] { 1, 2, 3, } ;
+        int index = 5;
+        Assert.That(() => this._exceptions.SumCollectionElements(collection, index), Throws.InstanceOf<IndexOutOfRangeException>());
     }
 
     [Test]
