@@ -75,20 +75,23 @@ public class ExceptionTests
     [Test]
     public void Test_GetElement_ValidIndex_ReturnsElement()
     {
-        // TODO: finish test
+        int[] array = new[] { 1, 2, 3 };
+        int index = 1;
+        int result = this._exceptions.IndexOutOfRangeGetElement(array, index);
+        Assert.That(result, Is.EqualTo(2));
     }
 
-    // TODO: finish test
+
     [Test]
     public void Test_GetElement_IndexLessThanZero_ThrowsIndexOutOfRangeException()
     {
         // Arrange
-
+        int[] array = new[] { 1, 2, 3 };
+        int index = -1;
         // Act & Assert
-        //Assert.That(() => this._exceptions.IndexOutOfRangeGetElement(array, index), Throws.InstanceOf<IndexOutOfRangeException>());
+        Assert.That(() => this._exceptions.IndexOutOfRangeGetElement(array, index), Throws.InstanceOf<IndexOutOfRangeException>());
     }
 
-    // TODO: finish test
     [Test]
     public void Test_GetElement_IndexEqualToArrayLength_ThrowsIndexOutOfRangeException()
     {
@@ -97,12 +100,17 @@ public class ExceptionTests
         int index = array.Length;
 
         // Act & Assert
+        Assert.That(() => this._exceptions.IndexOutOfRangeGetElement(array, index), Throws.InstanceOf<IndexOutOfRangeException>());
     }
 
     [Test]
     public void Test_GetElement_IndexGreaterThanArrayLength_ThrowsIndexOutOfRangeException()
     {
-        // TODO: finish test
+        int[] array = { 10, 20, 30, 40, 50 };
+        int index = array.Length +2;
+
+        // Act & Assert
+        Assert.That(() => this._exceptions.IndexOutOfRangeGetElement(array, index), Throws.InstanceOf<IndexOutOfRangeException>());
     }
 
     [Test]
