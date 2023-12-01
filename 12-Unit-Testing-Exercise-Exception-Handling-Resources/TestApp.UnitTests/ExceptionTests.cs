@@ -15,7 +15,7 @@ public class ExceptionTests
         this._exceptions = new();
     }
 
-    
+
     [Test]
     public void Test_Reverse_ValidString_ReturnsReversedString()
     {
@@ -29,7 +29,7 @@ public class ExceptionTests
         Assert.That(result, Is.EqualTo(expected));
     }
 
-    
+
     [Test]
     public void Test_Reverse_NullString_ThrowsArgumentNullException()
     {
@@ -107,7 +107,7 @@ public class ExceptionTests
     public void Test_GetElement_IndexGreaterThanArrayLength_ThrowsIndexOutOfRangeException()
     {
         int[] array = { 10, 20, 30, 40, 50 };
-        int index = array.Length +2;
+        int index = array.Length + 2;
 
         // Act & Assert
         Assert.That(() => this._exceptions.IndexOutOfRangeGetElement(array, index), Throws.InstanceOf<IndexOutOfRangeException>());
@@ -144,7 +144,7 @@ public class ExceptionTests
     {
         string input = "3.,3abc";
 
-        Assert.That(() => this._exceptions.FormatExceptionParseInt(input),Throws.InstanceOf<FormatException>());
+        Assert.That(() => this._exceptions.FormatExceptionParseInt(input), Throws.InstanceOf<FormatException>());
     }
 
     [Test]
@@ -174,7 +174,7 @@ public class ExceptionTests
         };
         string key = "fourth";
 
-        Assert.That(() => this._exceptions.KeyNotFoundFindValueByKey(dictionary, key),Throws.InstanceOf<KeyNotFoundException>());
+        Assert.That(() => this._exceptions.KeyNotFoundFindValueByKey(dictionary, key), Throws.InstanceOf<KeyNotFoundException>());
     }
 
     [Test]
@@ -191,8 +191,8 @@ public class ExceptionTests
     [Test]
     public void Test_AddNumbers_PositiveOverflow_ThrowsOverflowException()
     {
-       
-        
+
+
         int num1 = int.MaxValue;
         int num2 = int.MaxValue;
 
@@ -235,7 +235,7 @@ public class ExceptionTests
         int[] collection = new[] { 1, 2, 3, };
         int index = 2;
 
-        int result =this._exceptions.SumCollectionElements(collection, index);
+        int result = this._exceptions.SumCollectionElements(collection, index);
 
         Assert.That(result, Is.EqualTo(6));
     }
@@ -260,18 +260,43 @@ public class ExceptionTests
     [Test]
     public void Test_GetElementAsNumber_ValidKey_ReturnsParsedNumber()
     {
-        // TODO: finish test
+        Dictionary<string, string> collection = new()
+        {
+            ["first"] = "1",
+            ["second"] = "2",
+            ["third"] = "3"
+        };
+        string key = "first";
+
+        int result =  this._exceptions.GetElementAsNumber(collection, key);
+
+        Assert.That(result, Is.EqualTo(1));
+    }
+        [Test]
+        public void Test_GetElementAsNumber_KeyNotFound_ThrowsKeyNotFoundException()
+        {
+        Dictionary<string, string> collection = new()
+        {
+            ["first"] = "1",
+            ["second"] = "2",
+            ["third"] = "3"
+        };
+        string key = "fifth";
+
+        Assert.That(() => this._exceptions.GetElementAsNumber(collection, key), Throws.InstanceOf<KeyNotFoundException>());
     }
 
-    [Test]
-    public void Test_GetElementAsNumber_KeyNotFound_ThrowsKeyNotFoundException()
-    {
-        // TODO: finish test
-    }
+        [Test]
+        public void Test_GetElementAsNumber_InvalidFormat_ThrowsFormatException()
+        {
+        Dictionary<string, string> collection = new()
+        {
+            ["first"] = "1abc",
+            ["second"] = "2def",
+            ["third"] = "3ghi"
+        };
+        string key = "first";
 
-    [Test]
-    public void Test_GetElementAsNumber_InvalidFormat_ThrowsFormatException()
-    {
-        // TODO: finish test
+        Assert.That(() => this._exceptions.GetElementAsNumber(collection, key), Throws.InstanceOf<FormatException>());
     }
-}
+    }
