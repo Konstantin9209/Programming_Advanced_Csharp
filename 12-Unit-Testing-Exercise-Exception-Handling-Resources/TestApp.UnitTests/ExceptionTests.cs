@@ -232,7 +232,7 @@ public class ExceptionTests
     [Test]
     public void Test_SumCollectionElements_ValidCollectionAndIndex_ReturnsSum()
     {
-        int[]? collection = null;
+        int[] collection = new[] { 1, 2, 3, };
         int index = 2;
 
         int result =this._exceptions.SumCollectionElements(collection, index);
@@ -243,15 +243,18 @@ public class ExceptionTests
     [Test]
     public void Test_SumCollectionElements_NullCollection_ThrowsArgumentNullException()
     {
-        int[]? collection = new[] { 1, 2, 3, } ;
+        int[]? collection = null;
         int index = 5;
-        Assert.That(() => this._exceptions.SumCollectionElements(collection, index), Throws.InstanceOf<IndexOutOfRangeException>());
+        Assert.That(() => this._exceptions.SumCollectionElements(collection, index), Throws.ArgumentNullException);
     }
 
     [Test]
     public void Test_SumCollectionElements_IndexOutOfRange_ThrowsIndexOutOfRangeException()
     {
-        // TODO: finish test
+        int[]? collection = new[] { 1, 2, 3, };
+        int index = 5;
+
+        Assert.That(() => this._exceptions.SumCollectionElements(collection, index), Throws.InstanceOf<IndexOutOfRangeException>());
     }
 
     [Test]
