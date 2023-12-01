@@ -232,7 +232,7 @@ public class ExceptionTests
     [Test]
     public void Test_SumCollectionElements_ValidCollectionAndIndex_ReturnsSum()
     {
-        int[] collection = new[] { 1, 2, 3, };
+        int[]? collection = null;
         int index = 2;
 
         int result =this._exceptions.SumCollectionElements(collection, index);
