@@ -194,7 +194,7 @@ public class ExceptionTests
        
         
         int num1 = int.MaxValue;
-        int num2 = 3;
+        int num2 = int.MaxValue;
 
         Assert.That(() => this._exceptions.OverflowAddNumbers(num2, num1), Throws.InstanceOf<OverflowException>());
     }
@@ -204,7 +204,7 @@ public class ExceptionTests
     {
 
         int num1 = int.MinValue;
-        int num2 = -1;
+        int num2 = int.MinValue;
 
         Assert.That(() => this._exceptions.OverflowAddNumbers(num2, num1), Throws.InstanceOf<OverflowException>());
     }
