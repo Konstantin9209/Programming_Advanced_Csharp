@@ -194,7 +194,7 @@ public class ExceptionTests
        
         
         int num1 = int.MaxValue;
-        int num2 = 3;
+        int num2 = int.MaxValue;
 
         Assert.That(() => this._exceptions.OverflowAddNumbers(num2, num1), Throws.InstanceOf<OverflowException>());
     }
@@ -204,7 +204,7 @@ public class ExceptionTests
     {
 
         int num1 = int.MinValue;
-        int num2 = -1;
+        int num2 = int.MinValue;
 
         Assert.That(() => this._exceptions.OverflowAddNumbers(num2, num1), Throws.InstanceOf<OverflowException>());
     }
@@ -212,13 +212,21 @@ public class ExceptionTests
     [Test]
     public void Test_DivideNumbers_ValidDivision_ReturnsQuotient()
     {
-        // TODO: finish test
+        int num1 = 6;
+        int num2 = 3;
+
+        int result = this._exceptions.DivideByZeroDivideNumbers(num1, num2);
+
+        Assert.That(result, Is.EqualTo(2));
     }
 
     [Test]
     public void Test_DivideNumbers_DivideByZero_ThrowsDivideByZeroException()
     {
-        // TODO: finish test
+        int num1 = 6;
+        int num2 = 0;
+
+        Assert.That(() => this._exceptions.DivideByZeroDivideNumbers(num1, num2), Throws.InstanceOf<DivideByZeroException>());
     }
 
     [Test]
