@@ -1,0 +1,15 @@
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.AssemblyInfoInputs.cache
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.AssemblyInfo.cs
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.csproj.CoreCompileInputs.cache
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.sourcelink.json
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\bin\Debug\net6.0\ExerciseOopHierarchy.exe
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\bin\Debug\net6.0\ExerciseOopHierarchy.deps.json
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\bin\Debug\net6.0\ExerciseOopHierarchy.runtimeconfig.json
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\bin\Debug\net6.0\ExerciseOopHierarchy.dll
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\bin\Debug\net6.0\ExerciseOopHierarchy.pdb
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.dll
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\refint\ExerciseOopHierarchy.dll
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.pdb
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ExerciseOopHierarchy.genruntimeconfig.cache
+C:\Users\petko\OneDrive\Documents\GitHub\Programming_Advanced_Csharp\15-Resources-Implementing-OOP-Hierarchy\obj\Debug\net6.0\ref\ExerciseOopHierarchy.dll
