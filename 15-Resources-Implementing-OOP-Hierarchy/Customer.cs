@@ -6,22 +6,23 @@ using System.Threading.Tasks;
 
 namespace ExerciseOopHierarchy
 {
-    public class Customer 
+    public class Customer
     {
-        private List<Order> orderHistory = new();
+        private List<Order> _orderHistory = new();
 
-        public IReadOnlyCollection<Order> OrderHistory => this.orderHistory.AsReadOnly();
+        public IReadOnlyCollection<Order> OrderHistory => this._orderHistory.AsReadOnly();
         public string Name { get; set; }
         public string Email { get; set; }
 
-        public Customer (string name, string email)
+        public Customer(string name, string email)
         {
             this.Name = name;
             this.Email = email;
         }
-        public void AddOrder (Order order)
+
+        public void AddOrder(Order order)
         {
-            this.orderHistory.Add(order);
+            this._orderHistory.Add(order);
         }
     }
 }
