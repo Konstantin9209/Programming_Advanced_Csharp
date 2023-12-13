@@ -1,31 +1,68 @@
 using NUnit.Framework;
+using TestApp;
 
-namespace TestApp.Tests;
-
-[TestFixture]
-public class CsvParserTests
+namespace TestApp.Tests
 {
-    [Test]
-    public void Test_ParseCsv_EmptyInput_ReturnsEmptyArray()
+    [TestFixture]
+    public class CsvParserTests
     {
-        // TODO: finish the test
-    }
+        [Test]
+        public void Test_ParseCsv_EmptyInput_ReturnsEmptyArray()
+        {
+            // Arrange
+            string csvData = "";
 
-    [Test]
-    public void Test_ParseCsv_SingleField_ReturnsArrayWithOneElement()
-    {
-        // TODO: finish the test
-    }
+            // Act
+            string[] result = CsvParser.ParseCsv(csvData);
 
-    [Test]
-    public void Test_ParseCsv_MultipleFields_ReturnsArrayWithMultipleElements()
-    {
-        // TODO: finish the test
-    }
+            // Assert
+            Assert.IsEmpty(result);
+        }
 
-    [Test]
-    public void Test_ParseCsv_TrimsWhiteSpace_ReturnsCleanArray()
-    {
-        // TODO: finish the test
+        [Test]
+        public void Test_ParseCsv_SingleField_ReturnsArrayWithOneElement()
+        {
+            // Arrange
+            string csvData = "single";
+
+            // Act
+            string[] result = CsvParser.ParseCsv(csvData);
+
+            // Assert
+            Assert.AreEqual(1, result.Length);
+            Assert.AreEqual("single ", result[0]);
+        }
+
+        [Test]
+        public void Test_ParseCsv_MultipleFields_ReturnsArrayWithMultipleElements()
+        {
+            // Arrange
+            string csvData = "Field1,Field2,Field3";
+
+            // Act
+            string[] result = CsvParser.ParseCsv(csvData);
+
+            // Assert
+            Assert.AreEqual(3, result.Length);
+            Assert.AreEqual("Field1", result[0]);
+            Assert.AreEqual("Field2", result[1]);
+            Assert.AreEqual("Field3", result[2]);
+        }
+
+        [Test]
+        public void Test_ParseCsv_TrimsWhiteSpace_ReturnsCleanArray()
+        {
+            // Arrange
+            string csvData = "   Field1   ,  Field2  ,  Field3  ";
+
+            // Act
+            string[] result = CsvParser.ParseCsv(csvData);
+
+            // Assert
+            Assert.AreEqual(3, result.Length);
+            Assert.AreEqual("Field1", result[0]);
+            Assert.AreEqual("Field2", result[1]);
+            Assert.AreEqual("Field3", result[2]);
+        }
     }
 }
