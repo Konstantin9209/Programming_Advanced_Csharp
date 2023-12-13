@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VFU/6ADtZ/+X1QhphZWEw+pqnoGifwUMfl5fGWxhsAmobcdkYSbTWEwgqOylC3HE2bXw+1tZKgm9xdqR2guD3w==",
+  "dgSpecHash": "PDFinQ9GuhzW9a8F5ULi+X5frpcnHTfDbI3dUr5bj1DpmrqlpYcAs1Rxuf8SITl2c/EuVfupKa4/Ymgsjf5bIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\petko\\Downloads\\01. Substring Extractor_Ресурси\\TestApp.Tests\\TestApp.Tests.csproj",
+  "projectFilePath": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Exam prep 3\\01. Substring Extractor\\TestApp.Tests\\TestApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\petko\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\petko\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

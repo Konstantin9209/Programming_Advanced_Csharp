@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petko\\Downloads\\01. Substring Extractor_Ресурси\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Exam prep 3\\01. Substring Extractor\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "C:\\Users\\petko\\Downloads\\01. Substring Extractor_Ресурси\\TestApp\\TestApp.csproj",
+      "projectPath": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Exam prep 3\\01. Substring Extractor\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\petko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petko\\Downloads\\01. Substring Extractor_Ресурси\\TestApp\\obj\\",
+      "outputPath": "C:\\Users\\petko\\OneDrive\\Documents\\GitHub\\Programming_Advanced_Csharp\\Exam prep 3\\01. Substring Extractor\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
