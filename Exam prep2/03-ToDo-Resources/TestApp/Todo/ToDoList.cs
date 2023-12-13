@@ -6,6 +6,8 @@ public class ToDoList
 {
     private readonly List<TaskItem> _tasks = new();
 
+    public object Tasks { get; set; }
+
     public void AddTask(string title, DateTime dueDate)
     {
         TaskItem newTask = new(title, dueDate);
